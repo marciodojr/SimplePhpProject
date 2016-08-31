@@ -1,0 +1,17 @@
+{
+    "name": "PhpSimpleComposerProject",
+    "type":"project",
+    "description": "Simple Composer Project",
+    "keywords": ["php", "composer", "simple-project"],
+    "license": "MIT",
+    "autors": [
+        {"name": "Márcio Dias", "email":"marciojr91@gmail.com"}
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {"SimpleProject\\": "Application/src"}
+    }
+}
